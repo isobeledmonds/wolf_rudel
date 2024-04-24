@@ -22,12 +22,12 @@ function menuBar(x) {
 
   /* Open when someone clicks on the span element */
 
-const overlayContainer = document.querySelectorAll(".overlay-container");
+//const overlayContainer = document.querySelectorAll(".overlay-container");
 
 
-function openNav(overlayContainer) {
-    overlayContainer.classList.toggle("open");
-  }
+//function openNav(overlayContainer) {
+ //   overlayContainer.classList.toggle("open");
+ // }
   
   /* Close when someone clicks on the "x" symbol inside the overlay */
  // function closeNav() {
