@@ -16,3 +16,25 @@ hiddenElements.forEach((el) => observer.observe(el));
 function menuBar(x) {
     x.classList.toggle("change");
   }
+
+
+/* Overlay menu */
+
+  /* Open when someone clicks on the span element */
+
+const overlayContainer = document.querySelectorAll(".overlay-container");
+
+
+function openNav(overlayContainer) {
+    overlayContainer.classList.toggle("open");
+  }
+  
+  /* Close when someone clicks on the "x" symbol inside the overlay */
+ // function closeNav() {
+  //  document.querySelectorAll("overlay-container").style.width = "0%";
+ // }
+
+
+// $('.menu-bar').click(function(){
+//$('.overlay-container').classList.toggle('open');
+//});

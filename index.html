@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WOLF RUDEL</title>
-    <link href="./index.css" rel="stylesheet">
+    <link href="./index-v2.css" rel="stylesheet">
+    <link href="./menu-v2.css" rel="stylesheet">
     <link href="./resources/wolf_rudel_icon.png" rel="icon">
     <script defer src="app.js"></script>
 </head>
 <body>
 <header>
     <img class="logo" src='resources/wolf_rudel_icon.png'>
-    <nav class="menu">
-        <a>Home</a>
-        <a>About</a>
-        <a>Join</a>
-    </nav>
-    <div class="menu-bar" onclick="menuBar(this)">
+    <div class="menu-container"><div class="menu-bar" onclick="menuBar(this); openNav()">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
       </div>
+    </div>
 </header>
+<div class="overlay-container">
+    <div class="menu-overlay">
+        <a>Home</a>
+        <a>About</a>
+        <a>Join</a>
+    </div>
+</div>
 
 <section class="banner_1 hidden">
     <p class="title">
