@@ -1,11 +1,18 @@
 
-    @font-face {
-        font-family: 'neue-light';
-        src: url("neue-haas-grotesk-display-pro/NeueHaasDisplayLight.ttf") format('truetype');
-      }
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('fonts2/NeueHaasDisplay-Light.eot');
+    src: url('fonts2/NeueHaasDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts2/NeueHaasDisplay-Light.woff2') format('woff2'),
+        url('fonts2/NeueHaasDisplay-Light.woff') format('woff'),
+        url('fonts2/NeueHaasDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
 body {
-    font-family: 'neue-medium';
+    font-family: 'Neue Haas Grotesk Display Pro';
     background-color: #ffffff;
     color: #0803B0;
     margin: 0;
