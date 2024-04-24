@@ -1,7 +1,7 @@
 
     @font-face {
         font-family: 'neue-medium';
-        src: url(neue-haas-grotesk-display-pro/NeueHaasDisplayMediu.ttf);
+        src: url(neue-haas-grotesk-display-pro/NeueHaasDisplayMediu.ttf) format('truetype');
       }
 
 body {
