@@ -1,15 +1,16 @@
 
 @font-face {
     font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('NeueHaasDisplay-Roman.eot');
-    src: url('NeueHaasDisplay-Roman.eot?#iefix') format('embedded-opentype'),
-        url('NeueHaasDisplay-Roman.woff2') format('woff2'),
-        url('NeueHaasDisplay-Roman.woff') format('woff'),
-        url('NeueHaasDisplay-Roman.ttf') format('truetype');
-    font-weight: 200;
+    src: url('fonts2/NeueHaasDisplay-Light_1.eot');
+    src: url('fonts2/NeueHaasDisplay-Light_1.eot?#iefix') format('embedded-opentype'),
+        url('fonts2/NeueHaasDisplay-Light_1.woff2') format('woff2'),
+        url('fonts2/NeueHaasDisplay-Light_1.woff') format('woff'),
+        url('fonts2/NeueHaasDisplay-Light_1.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
+
 
 body {
     font-family: 'Neue Haas Grotesk Display Pro';
@@ -36,7 +37,7 @@ body {
 
 
 header img {
-    width: 8rem;
+    width: 10rem;
     height: auto;
     padding-left: 1rem;
     padding-top: -2rem;
@@ -47,6 +48,7 @@ header {
     align-items: top;
     height: auto;
     position: relative;
+    margin-top: -0.5rem;
 }
 
 
@@ -73,13 +75,15 @@ header {
     padding: 10rem 0;
     justify-content: center;
     height: 100vh;
-    padding-top: -10rem;
     padding-left: 2rem;
+    width: 100%;
 }
 
 .title { 
-    font-size: 6rem;
+    font-size: 12rem;
     width: 100%;
+    margin-top: 6rem;
+
 }
 
 section p {
@@ -89,8 +93,8 @@ section p {
 
 .about {
     padding-left: 2rem;
-width: 100%;
-height: 100vh;
+    width: 100%;
+    height: 100vh;
 }
 
 /*to fix */
@@ -116,7 +120,7 @@ footer {
 .menu-bar {
     display: inline-block;
     cursor: pointer;
-    padding-top: 2rem;
+    padding-top: 3.5rem;
     z-index: 1;
   }
   
