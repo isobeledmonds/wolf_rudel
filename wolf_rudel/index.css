@@ -1,7 +1,7 @@
 body {
     @font-face {
         font-family: 'neue-medium';
-        src: url('neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayMediu.ttf');
+        src: url('/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayMediu.ttf');
       }
     background-color: #ffffff;
     color: #0803B0;
