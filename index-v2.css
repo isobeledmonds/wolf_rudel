@@ -1,7 +1,7 @@
 
     @font-face {
         font-family: 'neue-light';
-        src: url('/neue-haas-grotesk-display-pro/NeueHaasDisplayLight.ttf') format('truetype');
+        src: url('neue-haas-grotesk-display-pro/NeueHaasDisplayLight.ttf') format('truetype');
       }
 
 body {
