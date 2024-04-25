@@ -106,7 +106,7 @@ header {
 .banner_1 {
     display: block;
     position:relative;
-    padding: 10rem 0;
+    padding: 8rem 0;
     justify-content: center;
     height: 100vh;
     padding-left: 2rem;
@@ -143,7 +143,7 @@ section p {
 
 .images-container img {
     width: 15rem;
-    padding-top: 7rem;
+    padding-top: 5rem;
     padding-right: 2rem;
 }
 
