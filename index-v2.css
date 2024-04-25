@@ -45,6 +45,30 @@ body {
 
 /*}*/
 
+.image .hidden {
+    opacity: 0;
+    filter: blur(5rem);
+    transform: translateX(-100%);
+    transition: all 1s;
+
+}
+.image .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+.img:nth-child(2){
+    transition-delay: 200ms;
+}
+.img:nth-child(3){
+    transition-delay: 400ms;
+}
+.img:nth-child(4){
+    transition-delay: 600ms;
+}
+
 
 header img {
     width: 10rem;
@@ -108,6 +132,20 @@ section p {
     height: 100vh;
 }
 
+
+.images-container {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.images-container img {
+    width: 15rem;
+    padding-top: 7rem;
+    padding-right: 2rem;
+}
+
 /*to fix */
 br {
     padding-top: 1rem;
@@ -132,7 +170,8 @@ footer {
     display: inline-block;
     cursor: pointer;
     padding-top: 3.5rem;
-    z-index: 1;
+    z-index: 1000;
+    position: absolute;
   }
   
   .bar1, .bar2, .bar3 {

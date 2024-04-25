@@ -18,32 +18,67 @@ function menuBar(x) {
   }
 
 
+  function openNav() {
+    document.querySelectorAll(".overlay-container").style.width = "100%";
+  }
+
+//function openNav() {
+  //  var overlayContainer = document.querySelectorAll(".overlay-container");
+    //overlayContainer.classList.toggle("open");
+  //}
+
+//const menuClick = document.querySelectorAll(".menu-bar");
+
+  
+//menuClick.addEventListener("click", function() {
+   // var overlayContainer = document.querySelectorAll(".overlay-container");
+   // overlayContainer.style.width = "100%";
+//});
+
 /* Overlay menu */
 
   /* Open when someone clicks on the span element */
 
-//const overlayContainer = document.querySelectorAll(".overlay-container");
 
 
 //function openNav(overlayContainer) {
 //  overlayContainer.classList.toggle("open");
 //}
-  
-function OpenNav() {
-    document.querySelectorAll("overlay-container").style.width = "100%";
-}
+
+//const overlayContainer = document.querySelectorAll(".overlay-container");
+
+//function openNav() {
+  //  overlayContainer.style.width = "100%";
+//}
   /* Close when someone clicks on the "x" symbol inside the overlay */
- function closeNav() {
-    document.querySelectorAll("overlay-container").style.width = "0%";
-}
+ //function closeNav() {
+ //   document.querySelectorAll("overlay-container").style.width = "0%";
+//}
 
 
 // $('.menu-bar').click(function(){
 //$('.overlay-container').classList.toggle('open');
 //});
 
+//const menuBar = document.querySelector(".menu-bar");
+//const overlayContainer = document.querySelector(".overlay-container");
+
+//menuBar.click(function(){
+   // overlayContainer.style.width = "100%";
+//});
 
 
-$('.change').click(function(){
-    document.querySelectorAll("overlay-container").style.width = "0%";
-});
+//$( ".menu-bar" ).on( "click", function() {
+  //  $(".overlay-container").style.width = "100%";
+ // } );
+
+
+//$('.change').click(function(){
+//    $('.overlay-container').style.width = "0%";
+//});
+
+//const menuBar = document.querySelector(".menu-bar");
+
+//menuBar.addEventListener("click", (event) => {
+   // document.querySelector(".overlay-container").style.width = "100%";
+//});
