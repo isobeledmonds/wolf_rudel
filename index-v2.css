@@ -127,7 +127,7 @@ header {
 section p {
     max-width: 85%;
     font-size: 2.75vmax;
-    line-height: 3rem;
+    line-height: 3vmax;
 }
 
 .section-container {
