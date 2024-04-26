@@ -27,9 +27,9 @@ body {
     background-color: #ffffff;
     color: #0803B0;
     margin: 0;
-    margin-left: 2rem;
-    margin-left: 2rem;
-    margin-top: -1rem;
+    margin-left: 2vmax;
+    margin-left: 2vmax;
+    margin-top: -1vmax;
     height: 100vh;
 }
 
@@ -174,13 +174,13 @@ footer {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    margin-right: 2rem;
+    margin-right: 2vmax;
 }
 
 .menu-bar {
     display: inline-block;
     cursor: pointer;
-    padding-top: 3.5rem;
+    padding-top: 3.5vmax;
     z-index: 1000;
     position: absolute;
   }
