@@ -28,7 +28,7 @@ body {
     color: #0803B0;
     margin: 0;
     margin-left: 2vmax;
-    margin-left: 2vmax;
+    margin-right: 2vmax;
     margin-top: -1vmax;
     height: 100vh;
 }
@@ -144,7 +144,7 @@ section p {
     display: flex;
     flex-wrap:wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
     width: 80%;
     height: auto;
@@ -186,10 +186,10 @@ footer {
   }
   
   .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 2.5vmax;
+    height: 0.35vmax;
     background-color: #0803B0;
-    margin: 6px 2rem 0 0;
+    margin: 0.45vmax 2.1vmax 0 0;
     transition: 0.4s;
     
   }
@@ -204,6 +204,7 @@ footer {
     transform: translate(0, -11px) rotate(45deg);
   }
 
+  
   /*@media only screen and (max-width: 768px){
     .menu {
         visibility: collapse;

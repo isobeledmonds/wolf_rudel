@@ -6,6 +6,7 @@
     <title>WOLF RUDEL</title>
     <link href="./index-v2.css" rel="stylesheet">
     <link href="./menu-v2.css" rel="stylesheet">
+    <link href="./overlay-demo.css" rel="stylesheet">
     <link href="./resources/wolf_rudel_icon.png" rel="icon">
     <script defer src="app.js"></script>
 </head>
@@ -17,7 +18,9 @@
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
-        <div class="overlay-container">
+        </div>    
+        <div id="overlay" class="overlay-container close">
+            <div class="menu-container-overlay">
             <div class="menu-overlay">
                 <a>About</a>
                 <a>Events</a>
@@ -25,6 +28,11 @@
                 <a>Gallery</a>
                 <a>Join us</a>  
             </div>
+            <div class="menu-bar-overlay"onclick="menuBarClose(this); closeNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>    
         </div>
     </div>
     </div>
@@ -61,6 +69,5 @@
 <footer>
     © 2024 WOLF RUDEL  |  All rights reserved
 </footer>
-
 </body>
 </html>

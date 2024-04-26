@@ -28,24 +28,10 @@ body {
 .overlay-container {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
     height: 100vh;
-    width: 0;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(8, 3, 176, 0.9); /* Black w/opacity */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-  }
-/* overlay background when button is clicked*/
-.open {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
-    height: 100vh;
     width: 100%;
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    left: 0;
+    right: 0;
     top: 0;
     background-color: rgb(0,0,0); /* Black fallback color */
     background-color: rgba(8, 3, 176, 0.9); /* Black w/opacity */
@@ -60,17 +46,23 @@ body {
     width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
     margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+
+    
   }
   
   /* The navigation links inside the overlay */
   .menu-overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 3.5vmax;
     color: #fff;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
     margin-bottom: 1rem;
+    text-align: left;
+    padding-left: 8vmax;
+    line-height: 4vmax;
+    font-weight: bold;
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -87,16 +79,16 @@ body {
   }
   */
   
-  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-  @media screen and (max-height: 450px) {
+ 
+ /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+ /* @media screen and (max-height: 450px) {
     .menu-overlay a {font-size: 20px}
     .menu-overlay .closebtn {
       font-size: 40px;
       top: 15px;
       right: 35px;
     }
-  }
-
+  }*/
 
   /*.overlay-container {
     visibility: hidden;

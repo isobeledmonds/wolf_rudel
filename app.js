@@ -17,15 +17,35 @@ function menuBar(x) {
     x.classList.toggle("change");
   }
 
-
-  function openNav() {
-    document.querySelectorAll(".overlay-container").style.width = "100%";
+  function menuBarClose(x) {
+    x.classList.toggle("change-close");
   }
 
+  function openNav() {
+    document.querySelectorAll(".overlay-container")[0].style.width = "100%";
+  }
+
+  function closeNav() {
+    document.querySelectorAll(".overlay-container")[0].style.width = "0%";
+  }
+
+ // document.querySelectorAll(".change").click(function(){
+ //   document.querySelectorAll(".overlay-container")[0].style.width = "0%";
+//});
+
+//var overlayContainer = document.getElementsByClassName(".overlay-container");
+ //   overlayContainer.classList.toggle("open");
+ //   const closeEl = document.querySelectorAll('.close');
+ //   closeEl.forEach((el) => openNav.observe(el));
+
+//const overlayContainer = document.getElementsByClassName(".overlay-container");
+
+//var overlayContainer = document.querySelectorAll("overlay");
+
 //function openNav() {
-  //  var overlayContainer = document.querySelectorAll(".overlay-container");
-    //overlayContainer.classList.toggle("open");
-  //}
+ //   overlayContainer.classList.toggle("open");
+ // }
+
 
 //const menuClick = document.querySelectorAll(".menu-bar");
 
@@ -73,9 +93,7 @@ function menuBar(x) {
  // } );
 
 
-//$('.change').click(function(){
-//    $('.overlay-container').style.width = "0%";
-//});
+
 
 //const menuBar = document.querySelector(".menu-bar");
 
