@@ -36,7 +36,7 @@ body {
     background-color: rgb(0,0,0); /* Black fallback color */
     background-color: rgba(8, 3, 176, 0.9); /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    transition: 1s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
   }
 
   .open {
