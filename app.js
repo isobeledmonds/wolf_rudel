@@ -13,21 +13,27 @@ const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
 
-function menuBar(x) {
+function menuBar(x) { 
+    document.querySelectorAll(".overlay-container")[0].classList.toggle("open");
     x.classList.toggle("change");
-  }
+}
 
-  function menuBarClose(x) {
-    x.classList.toggle("change-close");
-  }
 
-  function openNav() {
-    document.querySelectorAll(".overlay-container")[0].style.width = "100%";
-  }
+//function menuBar(x) {
+  //  x.classList.toggle("change");
+  //}
 
-  function closeNav() {
-    document.querySelectorAll(".overlay-container")[0].style.width = "0%";
-  }
+  //function menuBarClose(x) {
+ //   x.classList.toggle("change-close");
+ // }
+
+ // function openNav() {
+ //   document.querySelectorAll(".overlay-container")[0].style.width = "100%";
+ // }
+
+ // function closeNav() {
+   // document.querySelectorAll(".overlay-container")[0].style.width = "0%";
+  //}
 
  // document.querySelectorAll(".change").click(function(){
  //   document.querySelectorAll(".overlay-container")[0].style.width = "0%";

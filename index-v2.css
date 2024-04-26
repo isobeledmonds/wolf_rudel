@@ -196,12 +196,18 @@ footer {
   
   .change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
+    background-color: #fff;
   }
   
-  .change .bar2 {opacity: 0;}
+  .change .bar2 {
+    opacity: 0;
+    background-color: #fff;
+}
+  
   
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
+    background-color: #fff;
   }
 
   
