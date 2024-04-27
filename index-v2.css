@@ -90,23 +90,6 @@ header {
 }
 
 
-/*.menu {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    
-}
-
-.menu a {
-  padding-right: 4rem;
-  padding-top: 2rem;
-  font-size: 1.2rem;
-  font-style: normal;
-  text-decoration: none;
-}
-*/
-
-
 .banner_1 {
     display: block;
     position:relative;
@@ -189,13 +172,13 @@ footer {
     width: 2.5vmax;
     height: 0.35vmax;
     background-color: #0803B0;
-    margin: 0.45vmax 2.1vmax 0 0;
+    margin: 0.35vmax 2vmax 0 0;
     transition: 0.4s;
     
   }
   
   .change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
+    transform: translate(0, 0.7vmax) rotate(-45deg);
     background-color: #fff;
   }
   
@@ -206,17 +189,8 @@ footer {
   
   
   .change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
+    transform: translate(0, -0.7vmax) rotate(45deg);
     background-color: #fff;
   }
 
   
-  /*@media only screen and (max-width: 768px){
-    .menu {
-        visibility: collapse;
-    }
-
-    .menu-bar {
-        visibility: visible;
-    }
-  }*/
