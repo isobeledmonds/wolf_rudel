@@ -93,29 +93,36 @@ header {
 .banner_1 {
     display: block;
     position:relative;
-    padding: 5rem 0;
+    padding: 0rem 0;
     justify-content: center;
     height: 100vh;
     
 }
 
+.heading {
+
+    font-family: 'Neue Haas Grotesk Bold';
+}
+
 .title { 
     font-size: 15vmax;
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 3vmax;
     font-family: 'Neue Haas Grotesk Bold'
+    
 
 }
 
 section p {
     max-width: 85%;
-    font-size: 2.75vmax;
+    font-size: 2.25vmax;
     line-height: 3vmax;
 }
 
 .section-container {
     width: 100%;
 }
+
 .about {
 
     height: fit-content;
@@ -150,6 +157,10 @@ footer {
     
     padding-top: 10vmax;
     
+}
+
+footer p {
+    width: 50%;
 }
 
 
@@ -194,3 +205,27 @@ footer {
   }
 
   
+
+  /* icons*/
+
+  .social-list {
+    list-style-type: none;
+  }
+
+  .social-list-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+
+  .icon {
+    cursor: pointer;
+    
+  }
+
+
+  .social-list li{
+    width: 3xmax;
+  }
