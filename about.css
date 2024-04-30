@@ -111,11 +111,11 @@ body {
 
 
 .story-img-container img {
-    width: 30vmax;
+    width: 40vmax;
     height: auto;
     border: transparent;
     margin-bottom: 2vmax;
-    border-radius: 50%;
+    margin-top: -9vmax;
 }
 
 .founder-container {
@@ -134,11 +134,11 @@ body {
 
 
 .mission-img-container img {
-    width: 30vmax;
+    width: 40vmax;
     height: auto;
     border: transparent;
     margin-bottom: 2vmax;
-    border-radius: 50%;
+    margin-top: -9vmax;
 }
 
 .mission-heading {
