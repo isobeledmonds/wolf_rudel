@@ -12,9 +12,19 @@
     border-radius: 50%;
     border: transparent;
     margin-right: 5vmax;
+    margin-left: 2vmax;
 }
 
 .founder-container {
     display: flex;
     flex-direction: row;
+}
+
+.meet-the-founder {
+    width: 90%;
+}
+
+.bio {
+    font-size: 1.25vmax;
+    line-height: 2vmax;
 }
