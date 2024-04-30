@@ -157,15 +157,16 @@ section p {
 footer {
     position: relative;
     display: flex;
-    height: 5rem;
+    height: 5vmax;
     align-items: center;
-    
+   
     padding-top: 10vmax;
     
 }
 
 footer p {
     width: 50%;
+    font-size: 1.25vmax;
 }
 
 
@@ -233,5 +234,9 @@ footer p {
 
   .social-list li{
     width: 3xmax;
+  }
+
+  .social-list svg {
+    width: 2vmax;
   }
 
