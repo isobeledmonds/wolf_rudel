@@ -226,17 +226,17 @@ footer p {
   }
 
 
-  .icon {
+  /*.social-list path {
     cursor: pointer;
     
-  }
+  }*/
 
 
   .social-list li{
-    width: 3xmax;
+    
   }
 
   .social-list svg {
-    width: 2vmax;
+    margin-right: 2vmax;
   }
 
